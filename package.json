@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "yarn run webpack-dev-server",
+    "build": "yarn run webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
